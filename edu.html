@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="d1">
+      <p id="p1">GOD IS GOOD</p>
+      <p id="p2">ALL THE TIME</p>
+    </div>
+    <script>
+      let names = ["mugisa", "chantal"];
+      const found = names.includes("chantal");
+      let para = document.createElement("p");
+      let text = document.createTextNode("'all the time '.");
+      para.appendChild(text);
+      let dev = document.getElementById("d1");
+      dev.appendChild(para);
+
+      para.style.color = "red";
+      alert(found);
+    </script>
+  </body>
+</html>

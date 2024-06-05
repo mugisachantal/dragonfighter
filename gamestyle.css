@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(4, 4, 86);
+}
+.section1{
+    background-color: rgb(194, 173, 173);
+    padding: 2px;
+    
+}
+.section2{
+    background-color: rgb(1, 1, 68);
+
+}
+div{
+
+    border: 1px solid black;
+    display: flex;
+    flex-wrap:wrap;
+
+    margin:2%;
+
+
+    
+}
+.div1{
+    margin-bottom: s0px;
+}
+.div2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+div p{
+    margin:5%;
+}
+button{
+    margin: 1%;
+    border-radius: 10%;
+}
+#p{
+    background-color: black;
+    color: white;
+    margin: 2%;
+    margin-top:0px ;
+}
