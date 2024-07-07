@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "../LIVINGWORD"
+    },
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "LIVINGWORD"
+  }
+}
